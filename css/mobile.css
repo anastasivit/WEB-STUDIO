@@ -1,0 +1,53 @@
+@media screen and (min-width: 480px) {
+  .container {
+    max-width: 428px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+
+  .container.container-mini {
+    max-width: 264px;
+  }
+
+  /* Header */
+  .header {
+    padding-bottom: 24px;
+    padding-top: 24px;
+    position: relative;
+  }
+
+  /* Mobile-menu */
+
+  .mob-menu-phone-number {
+    font-size: 36px;
+  }
+
+  .mob-menu-social-list {
+    display: flex;
+    gap: 56px;
+    max-width: 328px;
+  }
+
+  /* Feauture */
+
+  .feauture {
+    padding-top: 96px;
+    padding-bottom: 96px;
+  }
+
+  .feauture-link {
+    display: none;
+  }
+
+  /* Doing */
+
+  .doing {
+    display: none;
+  }
+
+  /* Customers */
+
+  /* Footer */
+}
