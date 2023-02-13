@@ -176,10 +176,40 @@
   /* Footer */
 
   .footer-container {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
+    flex-direction: row;
     column-gap: 24px;
     row-gap: 72px;
+    align-items: baseline;
+  }
+
+  .ftr-logo-container {
+    margin-bottom: 0;
+  }
+
+  .ftr-logo {
+    justify-content: flex-start;
+  }
+
+  .social-media-container {
+    margin-bottom: 0;
+  }
+
+  .social-media-title,
+  .subscribe-title {
+    text-align: left;
+  }
+
+  .subscribe-imput {
+    min-width: 264px;
+  }
+
+  .subscribe-link {
+    margin: 0;
+  }
+
+  /* Modal Window */
+  .modal {
+    width: 408px;
+    height: 586px;
   }
 }

@@ -259,7 +259,7 @@ body {
       rgba(46, 47, 66, 0.7),
       rgba(46, 47, 66, 0.7)
     ),
-    url(../images/hero/hero\ image.jpg);
+    url(../images/hero/Hero\ mobile.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -473,6 +473,7 @@ body {
 
 .footer-container {
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
@@ -551,17 +552,13 @@ body {
   fill: var(--white-color);
 }
 
-.subscribe-container {
-  margin-top: 72px;
-}
-
 .subscribe-imput-wrapper {
   max-width: 100%;
 }
 
 .subscribe-imput {
   display: flex;
-  width: 100%;
+  max-width: 396px;
   margin-right: auto;
   margin-left: auto;
   height: 40px;
@@ -581,6 +578,8 @@ body {
 
 .subscribe-link {
   display: flex;
+  margin-right: auto;
+  margin-left: auto;
   flex-direction: row;
   align-items: center;
   justify-content: center;
@@ -667,7 +666,7 @@ body {
     0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 
-/* <!-- Project --> */
+/* Project */
 
 .project-text {
   line-height: 1.5;
@@ -769,13 +768,21 @@ body {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  width: 408px;
-  height: 584px;
+  max-width: 392px;
+  min-height: 586px;
   background-color: #fcfcfc;
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12),
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 4px;
   padding: 72px 24px 24px;
+}
+
+.modal > .container {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  overflow-y: auto;
 }
 
 .modal-clas-btn {

@@ -50,4 +50,15 @@
   /* Customers */
 
   /* Footer */
+
+  .subscribe-imput {
+    min-width: 396px;
+  }
+
+  /* Modal Window */
+
+  .modal {
+    width: 392px;
+    height: 586px;
+  }
 }
