@@ -199,12 +199,24 @@
     text-align: left;
   }
 
+  .subscribe-container {
+    margin-right: 46px;
+  }
+
+  .subscribe-label-wrapper {
+    display: flex;
+  }
+
   .subscribe-imput {
     min-width: 264px;
   }
 
   .subscribe-link {
     margin: 0;
+  }
+
+  .subscribe-link {
+    /* margin: 0; */
   }
 
   /* Modal Window */

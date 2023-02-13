@@ -163,6 +163,11 @@
 
   /* Footer */
 
+  .footer-container {
+    display: flex;
+    justify-content: space-between;
+  }
+
   /* Modal Window */
 
   .modal {
