@@ -182,7 +182,23 @@
 
   .footer-container {
     display: flex;
-    justify-content: space-between;
+    align-items: baseline;
+    flex-direction: row;
+    column-gap: 0;
+    row-gap: 0;
+  }
+
+  .ftr-logo-container {
+    margin-right: 120px;
+  }
+
+  .social-media-container {
+    margin-right: 80px;
+  }
+
+  .subscribe-container {
+    margin-right: 0;
+    width: auto;
   }
 
   /* Modal Window */

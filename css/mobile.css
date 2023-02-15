@@ -14,7 +14,7 @@
   /* Header */
   .header {
     padding-bottom: 24px;
-    padding-top: 24px;
+    padding-top: 22px;
     position: relative;
   }
 
@@ -71,10 +71,14 @@
 
   /* Customers */
 
+  .customers-link {
+    width: 190px;
+  }
+
   /* Footer */
 
   .subscribe-imput {
-    min-width: 396px;
+    width: 100%;
   }
 
   /* Modal Window */

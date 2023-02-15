@@ -43,6 +43,7 @@ body {
 .section {
   padding-top: 120px;
   padding-bottom: 120px;
+  min-width: 320px;
 }
 
 :root {
@@ -56,7 +57,7 @@ body {
 }
 
 .container {
-  width: 100%;
+  min-width: 320px;
   margin-left: auto;
   margin-right: auto;
   padding-left: 15px;
@@ -141,6 +142,7 @@ body {
   background-color: var(--white-color);
   padding-top: 40px;
   padding-bottom: 40px;
+  padding-left: 25px;
 }
 
 .mob-menu.is-hidden {
@@ -163,8 +165,8 @@ body {
   border: transparent;
   background-color: var(--white-color);
   margin-left: auto;
-  width: 32px;
-  height: 22px;
+  width: 29.54px;
+  height: 18.62px;
 }
 
 .mobile-menu-open-icon {
@@ -366,6 +368,14 @@ body {
   background-color: var(--light-color);
   padding-top: 96px;
   padding-bottom: 128px;
+  min-width: 320px;
+}
+
+.team-list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 72px;
 }
 
 .team-item {
@@ -466,11 +476,15 @@ body {
   column-gap: 16px;
 }
 
+.customers-item {
+  flex-basis: calc((100% - 16px) / 2);
+}
+
 .customers-link {
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 190px;
+  width: 100%;
   height: 88px;
   border: 1px solid #8e8f99;
   border-radius: 5px;
@@ -492,6 +506,7 @@ body {
 /* Footer */
 .footer {
   background-color: var(--dark-color);
+  min-width: 320px;
   padding-top: 96px;
   padding-bottom: 96px;
 }
@@ -577,15 +592,12 @@ body {
   fill: var(--white-color);
 }
 
-.subscribe-imput-wrapper {
-  max-width: 100%;
+.subscribe-container {
+  width: 100%;
 }
 
 .subscribe-imput {
-  display: flex;
-  max-width: 396px;
-  margin-right: auto;
-  margin-left: auto;
+  width: 100%;
   height: 40px;
   border: 1px solid rgba(255, 255, 255, 0.3);
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
@@ -793,8 +805,7 @@ body {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  max-width: 392px;
-  min-height: 586px;
+  width: 100%;
   background-color: #fcfcfc;
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12),
     0px 2px 1px rgba(0, 0, 0, 0.2);
