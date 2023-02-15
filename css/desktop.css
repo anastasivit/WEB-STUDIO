@@ -3,7 +3,7 @@
 
 @media screen and (min-width: 1200px) {
   .container {
-    max-width: 1200px;
+    max-width: 1158px;
   }
 
   .container.container-mini {
@@ -54,17 +54,7 @@
 
   .nav-link-studio::after,
   .nav-link-portfolio::after {
-    content: "";
-    width: 100%;
-    height: 4px;
-    border-radius: 2px;
-    background-color: var(--pressed-color);
-    color: var(--pressed-color);
-    display: inline-block;
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    top: 44px;
+    top: 43px;
   }
 
   /* Mobile menu */
@@ -115,7 +105,7 @@
   .feauture-list {
     display: flex;
     flex-wrap: nowrap;
-    gap: 24px;
+    flex-basis: calc((100% - 72px) / 4);
   }
 
   .feauture-title {
@@ -124,12 +114,13 @@
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
+    text-align: start;
   }
 
   /* Doing */
 
   .doing {
-    display: flex;
+    display: block;
     padding-bottom: 120px;
   }
 
@@ -164,6 +155,7 @@
 
   .team-item {
     flex-basis: calc((100% - 72px) / 4);
+    margin-bottom: 0;
   }
 
   /* Customers */
@@ -176,6 +168,10 @@
   .customers-list {
     flex-wrap: nowrap;
     gap: 24px;
+  }
+
+  .customers-item {
+    flex-basis: calc((100% - 120px) / 6);
   }
 
   /* Footer */
